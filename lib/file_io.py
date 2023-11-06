@@ -8,8 +8,8 @@ def append_file(file_name, append_content):
        
 
 def read_file(file_name):
-   with open(f'{file_name}.txt', "r") as file:
-     content = file.read()
-     return content
+   with open(f'{file_name}.txt', mode="r") as file_name:
+   #   content = file.read()
+     return file_name.read()
 
 
